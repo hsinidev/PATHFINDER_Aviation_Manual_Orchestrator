@@ -1,0 +1,7 @@
+Name: PATHFINDER - Aviation Maintenance & Flight Manual Orchestrator
+Role: Aircraft Maintenance Engineer
+Description: PATHFINDER is an offline aviation RAG system that indexes flight manuals and aircraft repair bulletins. It assists maintenance crew inside metal hangars and runways with zero internet in diagnosing mechanical and flight control faults.
+Key Features:
+- Aviation Manual Search: Instant page matching for complex airliner systems.
+- Visual Cockpit Assistance: Upload instrument photos to read system states.
+- Offline Reliability: Self-contained database ensuring uptime in any location.
