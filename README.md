@@ -1,17 +1,21 @@
 <div align="center">
-# 🚀 Pathfinder Aviation Manual Orchestrator
-### *Modern, High-Performance Python Solution & Developer Suite*
 
-<p align="center">
-  [![Architect](https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white)](https://hsini.dev)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hsini.dev)
-  [![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge)](https://github.com/hsinidev)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Pathfinder%20Aviation%20Manu&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%" style="max-width: 100%; border-radius: 12px; margin-bottom: 20px;" alt="Pathfinder Aviation Manual Orchestrator Header Banner" />
+
+  <h1>🚀 Pathfinder Aviation Manual Orchestrator</h1>
+  <p><em>Modern, High-Performance Python Solution & Developer Suite</em></p>
+
+  <p align="center">
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white" alt="Architect: Hsini Mohamed" /></a>
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio: hsini.dev" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge" alt="Language: Python" /></a>
+    <a href="https://github.com/hsinidev/PATHFINDER_Aviation_Manual_Orchestrator"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT" /></a>
+  </p>
 
 </div>
 
 ---
+
 ## 🌟 Executive Overview
 
 **Pathfinder Aviation Manual Orchestrator** is a production-grade **Python** platform engineered for high reliability, clean architectural separation, and frictionless developer workflow.
@@ -24,103 +28,13 @@
 - **Production Ready**: Built-in error resilience, validation, and structured logging.
 
 ---
+
 ## 🏗️ Architecture & Technology Stack
 
 - **Primary Language**: `Python`
 - **Design Pattern**: Modular Clean Architecture / Domain-Driven Design
 - **License**: MIT Open Source Attribution
 
-## 📖 Deep-Dive Technical Documentation
-
-# PATHFINDER - Aviation Maintenance & Flight Manual Orchestrator
-
-
-## 🎯 Project Overview
-**PATHFINDER** is an air-gapped, high-reliability Retrieval-Augmented Generation (RAG) system engineered for aircraft maintenance technicians, flight engineers, and aviation mechanics. Designed to operate inside metal hangars, remote runways, and un-networked environments, PATHFINDER provides instant retrieval of Flight Crew Operating Manuals (FCOM), maintenance repair bulletins, and cockpit troubleshooting guides.
-
----
-
-## ✨ Key Features
-- ✈️ **Aviation Manual Search**: Instant page and section matching across complex airliner systems (hydraulic, avionics, flight control, engine specs).
-- 🎛️ **Visual Cockpit Assistance**: Ingests cockpit instrument photos and indicator lights to identify error codes and system alert states.
-- 📶 **100% Hangar & Tarmac Offline Reliability**: Self-contained vector database and local LLM runtime requiring zero cellular or internet access.
-- 🛠️ **Service Bulletin Cross-Referencing**: Links mechanical fault symptoms to official manufacturer service bulletins and repair procedures.
-- ⚡ **High-Precision Technical Extraction**: Accurately extracts torque settings, part numbers, and safety clearances.
-
----
-
-## 🛠 System Architecture & Stack
-- **Interface**: Custom Aviation Engineering Dashboard (`app.py`)
-- **RAG Engine**: High-reliability aviation retrieval engine (`rag_engine.py`) using ChromaDB
-- **Data Ingestion**: Multi-page PDF flight manual & repair bulletin indexer (`ingest.py`)
-- **LLM Runtime**: Local Ollama execution (Llama 3 / LLaVA / Gemma 2)
-
----
-
-## 🚀 Quick Start Guide
-
-### Prerequisites
-- Python 3.10+
-- [Ollama](https://ollama.ai/) installed locally
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/hsinidev/PATHFINDER_Aviation_Manual_Orchestrator.git
-   cd PATHFINDER_Aviation_Manual_Orchestrator
-   ```
-2. Activate a Python virtual environment:
-   ```bash
-   python -m venv venv
-   # Windows:
-   venv\Scripts\activate
-   # Linux/macOS:
-   source venv/bin/activate
-   ```
-3. Install required packages:
-   ```bash
-   pip install streamlit chromadb langchain ollama pypdf pillow
-   ```
-
-### Usage
-1. Place aircraft flight manuals, maintenance manuals, and repair bulletins in the local data directory.
-2. Index aviation documentation:
-   ```bash
-   python ingest.py
-   ```
-3. Start the PATHFINDER aviation maintenance console:
-   ```bash
-   streamlit run app.py
-   ```
-
----
-
-## 📂 Project Structure
-```
-PATHFINDER_Aviation_Manual_Orchestrator/
-├── app.py           # Aircraft maintenance console & query interface
-├── ingest.py        # Aviation manual PDF parser & vector embedding script
-├── rag_engine.py    # High-precision technical retrieval engine
-├── prompt.json      # Aviation engineer prompts & fault resolution models
-├── system.txt       # System role definition & flight safety policy
-├── skills.md        # Specialized aviation maintenance tool definitions
-└── README.md        # Project documentation
-```
-
----
-
-**HSINI MOHAMED**  
-*Enterprise Systems Architect & Aviation Systems Engineer*  
-
-- **GitHub**: [@hsinidev](https://github.com/hsinidev)
-- **LinkedIn**: [Moahmed Hsini](https://www.linkedin.com/in/moahmed-hsini-6059281a1/)
-- **Email**: [hsini.moahmed@gmail.com](mailto:hsini.moahmed@gmail.com)
-- **Website**: [hsini.dev](https://hsini.dev)
-
----
-*Precision flight safety and offline aviation technical manual intelligence.*
-
----
 ## 🚀 Quick Start & Installation
 
 ### 1. Clone the Repository
